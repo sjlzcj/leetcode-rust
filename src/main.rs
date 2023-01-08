@@ -1,8 +1,9 @@
-mod two_sum;
+mod length_of_longest_substring;
+
 fn main() {
-    let nums = vec![1, 2, 5, 4, 3];
-    let results = two_sum::solution(nums, 8);
-    for ele in results {
-        println!("{}", ele);
+    let a: Vec<char> = ('a'..'z').collect();
+    for c in a {
+        let us = c as usize;
+        println!("{}-->{}", c, us);
     }
 }
